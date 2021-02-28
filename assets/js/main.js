@@ -20,3 +20,16 @@ function scrolltop() {
     }
 }
 window.addEventListener('scroll', scrolltop)
+
+
+function buttonScrool() {
+    const button = document.getElementById('top')
+
+    if(scrollY >= 500) {
+        button.classList.add('button-show')
+    }else {
+        button.classList.remove('button-show')
+    }
+}
+
+window.addEventListener('scroll', buttonScrool)
