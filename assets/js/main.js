@@ -8,3 +8,15 @@ toggle.addEventListener('click', () => {
 close.addEventListener('click', () => {
     NavMenu.classList.remove('show')
 })
+
+
+function scrolltop() {
+    const menu = document.getElementById('menu-top')
+
+    if(scrollY >= 200) {
+        menu.classList.add('show-scroll')
+    }else {
+        menu.classList.remove('show-scroll')
+    }
+}
+window.addEventListener('scroll', scrolltop)
