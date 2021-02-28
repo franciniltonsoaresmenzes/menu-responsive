@@ -20,6 +20,7 @@ ul{
 }
 a {
     text-decoration: none;
+    outline: none;
 }
 .l-header {
     width: 100%;
@@ -97,6 +98,7 @@ a {
 }
 .l-main p {
     margin-top: 50px;
+    text-indent: 35px;
 }
 .nav__scrollTop {
     font-size: 50px;
